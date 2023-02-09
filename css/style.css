@@ -907,16 +907,12 @@ body {
   padding-bottom: 8px;
   line-height: 23px;
   transition: 1s ease;
+  color: #FFFFFF;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 .form__input::-moz-placeholder {
   color: rgb(255, 255, 255);
   -moz-transition: 0.1s ease;
-  transition: 0.1s ease;
-}
-.form__input:-ms-input-placeholder {
-  color: rgb(255, 255, 255);
-  -ms-transition: 0.1s ease;
   transition: 0.1s ease;
 }
 .form__input::placeholder {
@@ -927,9 +923,6 @@ body {
   border-bottom: 1px solid rgb(255, 255, 255);
 }
 .form__input:focus::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.5);
-}
-.form__input:focus:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
 .form__input:focus::placeholder {
@@ -995,11 +988,6 @@ body {
   -moz-transition: 0.5s ease;
   transition: 0.5s ease;
 }
-.input_online-control:-ms-input-placeholder {
-  color: rgb(54, 54, 54);
-  -ms-transition: 0.5s ease;
-  transition: 0.5s ease;
-}
 .input_online-control::placeholder {
   color: rgb(54, 54, 54);
   transition: 0.5s ease;
@@ -1008,9 +996,6 @@ body {
   border-bottom: 1px solid rgb(54, 54, 54);
 }
 .input_online-control:focus::-moz-placeholder {
-  color: rgba(54, 54, 54, 0.5);
-}
-.input_online-control:focus:-ms-input-placeholder {
   color: rgba(54, 54, 54, 0.5);
 }
 .input_online-control:focus::placeholder {
@@ -1027,10 +1012,6 @@ body {
     color: #FFFFFF;
     line-height: 19px;
   }
-  .input_online-control:-ms-input-placeholder {
-    color: #FFFFFF;
-    line-height: 19px;
-  }
   .input_online-control::placeholder {
     color: #FFFFFF;
     line-height: 19px;
@@ -1039,9 +1020,6 @@ body {
     border-bottom: 1px solid rgb(255, 255, 255);
   }
   .input_online-control:focus::-moz-placeholder {
-    color: rgba(255, 255, 255, 0.7);
-  }
-  .input_online-control:focus:-ms-input-placeholder {
     color: rgba(255, 255, 255, 0.7);
   }
   .input_online-control:focus::placeholder {
@@ -1065,7 +1043,7 @@ body {
 }
 @media (max-width: 767.98px) {
   #username1:focus ~ label[class="form__label label_black"],
-#phone_input1:focus ~ label[class="form__label label_black"] {
+  #phone_input1:focus ~ label[class="form__label label_black"] {
     color: rgb(255, 255, 255);
   }
 }
