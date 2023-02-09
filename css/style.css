@@ -1599,6 +1599,7 @@ body {
   position: relative;
   background: url("../img/our-clients/cover.png") repeat-x bottom;
   z-index: 0;
+  margin-bottom: -250px;
 }
 @media (max-width: 767.98px) {
   .our-clients {
