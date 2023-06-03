@@ -96,7 +96,6 @@ class Slider {
 				element.style.opacity = newOpacity;
 			});
 			this.sliderImg.style.opacity = newOpacity;
-			console.log(this.section);
 		}
 
 	}
